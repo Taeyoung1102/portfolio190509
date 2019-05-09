@@ -54,11 +54,12 @@ button {
 }
 .product h2 > button{
   font-family: 'Fredoka One', cursive;
-  color:#fff;
+  color: #d3313a;;
+  opacity: 0.5;
   font-size: 1.2rem;
   padding: 5px;
   border-radius: 10px;
-  border: 3px solid #fff;
+  border: 3px solid #d3313a;
   position: absolute;
   top: 12px;
   right: 15px;
@@ -92,7 +93,7 @@ left: 10%;
 }
 #smoothie h2 {
   top: 80px;
-  background-color: rgba(53,208,200,0.4);
+  background-color: #f7f1e3;
 }
 #smoothie h2 > img {
   width: 30%;
@@ -175,7 +176,7 @@ left: 10%;
 }
 /******************************************/
 #food {
-  background-color: #35d0ba;
+  background-color: #f7f1e3;
   height: 100vh;
   width: 100vw;
   position: relative;
