@@ -54,12 +54,12 @@ button {
 }
 .product h2 > button{
   font-family: 'Fredoka One', cursive;
-  color: #d3313a;;
+  color: #ff9234;
   opacity: 0.5;
   font-size: 1.2rem;
   padding: 5px;
   border-radius: 10px;
-  border: 3px solid #d3313a;
+  border: 3px solid #ff9234;
   position: absolute;
   top: 12px;
   right: 15px;
