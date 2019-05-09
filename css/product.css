@@ -1,0 +1,343 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+*{
+  vertical-align: top;
+}
+.forward {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  width: 4em;
+  height: 4em;
+  padding: 10px;
+  cursor: pointer !important ;
+  display:inline-block;
+    z-index: 999;
+    transition: 0.2s ease-in;
+}
+.forward:hover {
+  transform: scale(1.2);
+}
+.forward > img{
+  width: 100%;
+  height: 100%;
+    cursor: pointer;
+}
+.product h2 {
+  width: 700px;
+  height: 4rem;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  position: relative;
+  left: -20%;
+  top: 50px;
+  transition: 0.3s ease;
+}
+button {
+  all:unset;
+  cursor: pointer;
+}
+.product h2 > img {
+  position: absolute;
+  top:44%;
+  left: 5%;
+    transform: translate(0,-50%);
+}
+.product h2 > span {
+  font-family:'Noto Sans KR', sans-serif;
+  font-size: 1.4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.product h2 > button{
+  font-family: 'Fredoka One', cursive;
+  color:#fff;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  transition: .4s ease;
+}
+#smoothie {
+  background: url(../img/images/main_bg.png);
+  background-size: cover; 
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#smoothie .s_inner-wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+.bgimgs > div {
+  position: absolute;
+}
+.r-people {
+top: 10px; 
+left: 22%;
+}
+.f-people{
+top: 16px;
+right: 6%;
+}
+.k-people{
+bottom: 20px;
+left: 10%;
+}
+#smoothie h2 {
+  top: 80px;
+  background-color: rgba(53,208,200,0.4);
+}
+#smoothie h2 > img {
+  width: 30%;
+}
+#smoothie h2 > span{
+  color: #ff878b;
+}
+#smoothie .s_grid {
+  position: absolute;
+  top:180px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-gap: 5px;
+  grid-auto-rows: 240px;
+  transition: 0.4s ease;
+}
+
+#smoothie .s_grid > div {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 240px;
+  cursor: pointer;
+    transition: 0.4s ease;
+}
+#smoothie .s_grid > div .title {
+  font-family:'Fredoka One', cursive;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 296px;
+  height: 170px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+}
+#smoothie .s_grid > div:hover {
+  background-size: cover;
+}
+#smoothie .s_grid > div:hover .title{
+  width: 380px;
+  height: 240px;
+}
+#smoothie .s_grid .refresh{
+  background: url(../img/images/product_1.png);
+  background-position: center center;
+}
+#smoothie .s_grid .vitamin{
+  background: url(../img/images/product_2.png);
+  background-position: center center;
+}
+#smoothie .s_grid .fitness{
+  background: url(../img/images/product_3.png);
+  background-position: center center;
+}
+#smoothie .s_grid .kids{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(../img/images/product_4.png);
+  background-position: center center;
+}
+#smoothie .s_grid .greek{
+  background: url(../img/images/product_5.png);
+  background-position: center center;
+}
+#smoothie .s_grid .local {
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(../img/images/product_6.png);
+  background-position: center center;
+}
+#smoothie figure, #food figure {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff878b;
+}
+/******************************************/
+#food {
+  background-color: #35d0ba;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.f_inner-wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+#food h2 {
+  background-color: rgba(255,255,255,0.7);
+}
+#food h2 > span{
+  color: #ffcd3c;
+}
+#food h2 > img {
+  width: 23%;
+}
+#food .food_bg{
+  width: 500px;
+ position: absolute;
+ top: 42%;
+ left: 10%;
+}
+#food .food_bg img{
+  width: 100%;
+  opacity: 0.7;
+}
+#food .f_grid{
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+}
+#food .f_grid video {
+  height: 70vh;
+}
+#food .scroll-to-smoo button img{
+  width: 70px;
+  transition: 0.4s ease;
+}
+/*********************************************/
+
+/*********************************************/
+#rollingBanner  {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 340px;
+  overflow: hidden;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+#rollingBanner .rolling {
+  top:0;
+  left: 0;
+  position: absolute;
+  width: 5780px;
+  height: 100%;
+}
+#rollingBanner ul li {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 340px;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+#rollingBanner ul li >img {
+  width: 100%;
+}
+/*************************************************/
+
+
+@media (max-width : 1000px){
+  .product h2 {
+    left: -5%;
+  }
+  #smoothie {
+    height:150vh;
+  }
+  #smoothie .s_inner-wrapper {
+    height:150vh;
+  }
+  #smoothie .s_grid {
+    grid-template-columns: repeat(2, 380px);
+    grid-gap: 5px;
+    grid-auto-rows: 240px;
+    padding: 10px;
+  }
+  #smoothie .s_inner-wrapper {
+    background: 
+    url("../img/images/people_r.png") no-repeat 30px  5px ,
+  url("../img/images/people_f.png") no-repeat 500px  10px ,
+  url("../img/images/people_k.png") no-repeat 0px  980px ;
+  }
+  #smoothie .scroll-to-food {
+    display: none;
+  }
+  .bgimgs > div {
+    display: none;
+  }
+  #rollingBanner  {
+    height: 280px;
+  }
+  #smoothie {
+    height: auto !important;
+    
+  }
+}
+@media (max-width : 700px){
+  #smoothie {
+    height: 1700px;
+  }
+  #food {
+    height: 200px;
+  }
+  #smoothie h2 , #food h2{
+    background-color: transparent;
+    left: 10%;
+  }
+  #smoothie h2 > button {
+    color: #ff878b;
+    border: 3px solid #ff878b;
+  }
+  .product h2 > button {
+    right: 45%;
+    top: 40%;
+  }
+  .product h2 > span {
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 22%;
+    top: 100%;
+    transform: translate(-50%,-50%);
+  }
+  #smoothie .s_grid {
+    grid-template-columns: repeat(1, 380px);
+    grid-gap: 5px;
+    grid-auto-rows: 240px;
+    padding: 30px;
+  }
+  #food .f_grid{
+    display: none;
+  }
+  #food .food_bg{
+  display: none;
+  }
+  #food .scroll-to-smoo {
+    bottom: 20px;
+  }
+  #food .scroll-to-smoo button img{
+    width: 50px;
+  }
+  #rollingBanner  {
+    height: 240px;
+    top: 52%;
+  }
+}
