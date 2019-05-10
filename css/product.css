@@ -117,8 +117,8 @@ left: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
-  height: 240px;
+  width: 23.750em;
+  height: 15em;
   cursor: pointer;
     transition: 0.4s ease;
 }
@@ -128,9 +128,9 @@ left: 10%;
   color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
-  width: 296px;
-  height: 170px;
-  border: 2px solid #fff;
+  width: 80%;
+  height: 70%;
+  border: 1px solid #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,8 +140,8 @@ left: 10%;
   background-size: cover;
 }
 #smoothie .s_grid > div:hover .title{
-  width: 380px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
 }
 #smoothie .s_grid .refresh{
   background: url(../img/images/product_1.png);
@@ -227,7 +227,7 @@ left: 10%;
 /*********************************************/
 #rollingBanner  {
   position: relative;
-  top: 50%;
+  top: 20%;
   transform: translateY(-50%);
   height: 340px;
   overflow: hidden;
@@ -287,14 +287,15 @@ left: 10%;
   #rollingBanner  {
     height: 280px;
   }
-  #smoothie {
-    height: auto !important;
-    
-  }
 }
 @media (max-width : 700px){
   #smoothie {
     height: 1700px;
+  }
+  #smoothie .s_grid {
+    transform: scale(0.6);
+    top:70px;
+    left: -140px;
   }
   #food {
     height: 200px;
@@ -319,14 +320,10 @@ left: 10%;
     top: 100%;
     transform: translate(-50%,-50%);
   }
-  #smoothie .s_grid {
-    grid-template-columns: repeat(1, 380px);
-    grid-gap: 5px;
-    grid-auto-rows: 240px;
-    padding: 30px;
-  }
   #food .f_grid{
-    display: none;
+    transform: scale(0.7);
+    top: 100px;
+    left: -100px;
   }
   #food .food_bg{
   display: none;
@@ -339,6 +336,6 @@ left: 10%;
   }
   #rollingBanner  {
     height: 240px;
-    top: 52%;
+    top: 12%;
   }
 }
