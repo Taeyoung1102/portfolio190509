@@ -227,7 +227,7 @@ left: 10%;
 /*********************************************/
 #rollingBanner  {
   position: relative;
-  top: 40%;
+  top: 500px;
   transform: translateY(-50%);
   height: 340px;
   overflow: hidden;
